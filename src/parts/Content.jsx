@@ -2,14 +2,19 @@ import React from 'react'
 import Container from '@mui/material/Container'
 import VPTransparent from '../components/VPTransparent'
 import Typography from '@mui/material/Typography'
-import CardDesc from '../components/CardDesc'
+import Desc from '../components/Desc'
 
 function Content() {
   return (
     <Container maxWidth='sm' sx= {{ alignItems: 'center' }}>
         <Typography className='slide-top skewed-left no-mouse' variant={'h1'} sx={{my: 5}} align= 'center'>Hello</Typography>
         <VPTransparent/>
-        <CardDesc style={{ marginTop: '20px'}}/>
+        <Desc/>
+        <Desc/>
+        <Desc/>
+        <Desc/>
+        <Desc/>
+        <Desc/>
     </Container>
   )
 }
