@@ -1,13 +1,13 @@
 import './App.css';
 import Header from './parts/Header'
 import Content from './parts/Content'
-// import Background from './components/Background'
+import Background from './components/Background'
 
 function App() {
   return (
     <div>
-      {/* <Background/> */}
       <Header/>
+      <Background/>
       <Content/>
       
     </div>
