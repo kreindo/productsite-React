@@ -1,11 +1,12 @@
 import React from 'react'
 import mainVideo from '../assets/videos/video.mp4'
+import Box from '@mui/material/Box'
 
 function VPTransparent() {
   return (
-    <div className='mainVideo'>
+    <Box className='mainVideo'>
         <video className= 'introVideo' src={mainVideo} autoPlay loop muted/>
-    </div>
+    </Box>
   )
 }
 

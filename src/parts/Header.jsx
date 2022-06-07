@@ -5,14 +5,14 @@ import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import MenuIcon from "@mui/icons-material/Menu";
-import BedroomBabyIcon from "@mui/icons-material/BedroomBaby";
+import CodeIcon from '@mui/icons-material/Code';
 import Typography from "@mui/material/Typography";
 import Toolbar from "@mui/material/Toolbar";
 import Box from "@mui/material/Box";
 import AppBar from "@mui/material/AppBar";
 // import Logo from "../assets/images/circli-noname.png";
 
-const pages = ["Products", "Pricing", "Blog"];
+const pages = ["Docs", "Pricing", "Github"];
 
 function Header() {
   // State here
@@ -33,10 +33,10 @@ function Header() {
   // };
 
   return (
-    <AppBar color="transparent" position="static">
+    <AppBar color="transparent" position="static" className="elevation0">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <BedroomBabyIcon
+          <CodeIcon
             sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
           />
           <Typography
@@ -54,7 +54,7 @@ function Header() {
               textDecoration: "none",
             }}
           >
-            C.CLI
+            CCLI
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -95,7 +95,7 @@ function Header() {
               ))}
             </Menu>
           </Box>
-          <BedroomBabyIcon
+          <CodeIcon
             sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
           />
           <Typography
@@ -114,7 +114,7 @@ function Header() {
               textDecoration: "none",
             }}
           >
-            C.CLI
+            CCLI
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
