@@ -5,7 +5,7 @@ import Box from '@mui/material/Box'
 function VPTransparent() {
   return (
     <Box className='mainVideo'>
-        <video className= 'introVideo' src={mainVideo} autoPlay loop muted/>
+        <video className= 'introVideo' src={mainVideo} autoPlay muted/>
     </Box>
   )
 }
