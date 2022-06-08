@@ -11,6 +11,9 @@ const Desc = () => {
       gutterBottom
       gutterTop
     >
+      <Typography variant='h2'>
+        Availability at it's finest
+      </Typography>
       <Typography variant="body1">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, possimus
         blanditiis laboriosam officiis laboriosam nulla, veritatis quae
