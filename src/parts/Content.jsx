@@ -28,10 +28,10 @@ function Content() {
         <VPTransparent />
       </Container>
       <Divider />
-      <Container gutterTop sx={{ display: 'flex'}}>
+      <Container maxWidth='md' gutterTop sx={{ display: 'flex'}}>
         <Desc />
         <Box>
-          <img style={{width: '100px', height: 'auto'}} src={devGirl} alt="" />
+          <img style={{width: '20em', height: 'auto'}} src={devGirl} alt="" />
         </Box>
       </Container>
     </Container>

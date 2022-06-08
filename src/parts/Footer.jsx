@@ -5,11 +5,11 @@ const Footer = () => {
   return (
     <Box sx={{
         backgroundColor: 'primary.dark',
-        width: 400,
-        height: 100,
-        
+        width: '100%',
+        height: 60,
+
     }}>
-        <Typography textAlign={'center'}>
+        <Typography gutterTop textAlign={'center'}>
             @copyright 2022, All Rights Reserved
         </Typography>
     </Box>

@@ -7,7 +7,6 @@ import Typography from "@mui/material/Typography";
 const Desc = () => {
   return (
     <Box
-      minWidth="sm"
       sx={{ display: "flex", flexGrow: "2" }}
       gutterBottom
       gutterTop
