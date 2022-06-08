@@ -4,7 +4,7 @@ import dCube from '../assets/images/1.png'
 
 function Background() {
     return (
-        <Box sx={{display: 'absolute'}}>
+        <Box sx={{display: 'sticky'}}>
             <img style={{width: '5em'}} src={dCube} alt="bg" />
         </Box>
     )
