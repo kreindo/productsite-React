@@ -28,8 +28,20 @@ function Content() {
         <VPTransparent />
       </Container>
       <Divider />
-      <Container maxWidth='md' gutterTop sx={{ display: 'flex'}}>
-        <Desc />
+      <Container maxWidth='md' gutterTop gutterBottom sx={{ display: 'flex'}}>
+        <Desc title='Availability is our specialty'/>
+        <Box>
+          <img style={{width: '200', height: 'auto'}} src={devGirl} alt="" />
+        </Box>
+      </Container>
+      <Container maxWidth='md' gutterTop gutterBottom sx={{ display: 'flex'}}>
+        <Box>
+          <img style={{width: '200', height: 'auto', margin: '0 10px'}} src={devGirl} alt="" />
+        </Box>
+        <Desc title='Super() is weird'/>
+      </Container>
+      <Container maxWidth='md' gutterTop gutterBottom sx={{ display: 'flex'}}>
+        <Desc title='Stay connected'/>
         <Box>
           <img style={{width: '200', height: 'auto'}} src={devGirl} alt="" />
         </Box>

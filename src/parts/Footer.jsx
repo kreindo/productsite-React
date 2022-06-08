@@ -9,7 +9,7 @@ const Footer = () => {
         height: 60,
 
     }}>
-        <Typography gutterTop textAlign={'center'}>
+        <Typography paddingTop={'10px'} textAlign={'center'}>
             @copyright 2022, All Rights Reserved
         </Typography>
     </Box>
