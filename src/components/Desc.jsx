@@ -1,5 +1,4 @@
 import React from "react";
-import props from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 // import { Card, CardContent, CardActions } from "@mui/material";
