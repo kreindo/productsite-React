@@ -10,7 +10,7 @@ import dCube from "../assets/images/1.png"
 function Content() {
   return (
     <Container>
-      <img className='slide-top' style={{ width: '10em', display: 'absolute'}} src={dCube} alt="bg" />
+      <img className='slide-top1' style={{ width: '10em', display: 'absolute'}} src={dCube} alt="bg" />
       <Container
         maxWidth="md"
         sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}
