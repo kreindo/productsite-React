@@ -31,7 +31,7 @@ function Content() {
       <Container gutterTop sx={{ display: 'flex'}}>
         <Desc />
         <Box>
-          <img src={devGirl} alt="" />
+          <img style={{width: '100px', height: 'auto'}} src={devGirl} alt="" />
         </Box>
       </Container>
     </Container>
