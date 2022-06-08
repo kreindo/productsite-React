@@ -4,8 +4,8 @@ import dCube from '../assets/images/1.png'
 
 function Background() {
     return (
-        <Box sx={{display: 'sticky'}}>
-            <img style={{width: '5em'}} src={dCube} alt="bg" />
+        <Box sx={{display: 'absolute'}}>
+            <img className='slide-top' style={{ width: '5em', display: 'absolute'}} src={dCube} alt="bg" />
         </Box>
     )
 }

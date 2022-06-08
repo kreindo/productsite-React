@@ -5,10 +5,12 @@ import Typography from "@mui/material/Typography";
 import Desc from "../components/Desc";
 import Box from "@mui/material/Box";
 import Divider from "../components/Divider";
+import dCube from "../assets/images/1.png"
 
 function Content() {
   return (
     <Container>
+      <img className='slide-top' style={{ width: '5em', display: 'absolute'}} src={dCube} alt="bg" />
       <Container
         maxWidth="md"
         sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}
