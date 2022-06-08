@@ -14,20 +14,8 @@ const Desc = () => {
     >
       <Typography variant="body1">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, possimus
-        blanditiis laboriosam officiis natus dolores sequi eveniet atque facilis
-        nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Voluptate aut placeat eos explicabo, laboriosam nulla, veritatis quae
-        corrupti adipisci illo nesciunt iusto ipsum? Harum, consequatur
-        exercitationem soluta nobis adipisci ex. Lorem ipsum dolor sit amet,
-        consectetur adipisicing elit. Ea, possimus blanditiis laboriosam
-        officiis natus dolores sequi eveniet atque facilis nobis? Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit. Voluptate aut placeat eos
-        explicabo, laboriosam nulla, veritatis quae corrupti adipisci illo
-        nesciunt iusto ipsum? Harum, consequatur exercitationem soluta nobis
-        adipisci ex. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Ea, possimus blanditiis laboriosam officiis natus dolores sequi eveniet
-        atque facilis nobis? Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Voluptate aut placeat eos explicabo, laboriosam nulla, veritatis
+        blanditiis laboriosam officiis laboriosam nulla, veritatis quae
+        corrupti adipisci illo nesciunt, laboriosam nulla, veritatis
         quae corrupti adipisci illo nesciunt iusto ipsum? Harum, consequatur
         exercitationem soluta nobis adipisci ex.
       </Typography>

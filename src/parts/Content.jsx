@@ -6,6 +6,7 @@ import Desc from "../components/Desc";
 import Box from "@mui/material/Box";
 import Divider from "../components/Divider";
 import dCube from "../assets/images/1.png"
+import devGirl from '../assets/images/Coding1.png'
 
 function Content() {
   return (
@@ -27,9 +28,12 @@ function Content() {
         <VPTransparent />
       </Container>
       <Divider />
-      <Box gutterTop>
+      <Container gutterTop sx={{ display: 'flex'}}>
         <Desc />
-      </Box>
+        <Box>
+          <img src={devGirl} alt="" />
+        </Box>
+      </Container>
     </Container>
   );
 }
