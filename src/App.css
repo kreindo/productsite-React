@@ -64,8 +64,8 @@ ul.ulContainer>li {
 	        animation: slide-top 2s ease-in-out infinite alternate both;
 }
 .slide-top1 {
-	-webkit-animation: slide-top 2.5s ease-in-out infinite alternate both;
-	        animation: slide-top 2.5s ease-in-out infinite alternate both;
+	-webkit-animation: slide-top 2.1s ease-in-out infinite alternate both;
+	        animation: slide-top 2.1s ease-in-out infinite alternate both;
 }
 
 /* ----------------------------------------------
