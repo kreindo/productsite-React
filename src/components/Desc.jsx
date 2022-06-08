@@ -9,7 +9,7 @@ const Desc = (props) => {
     <Box sx={{ display: "flex", flexGrow: "2" }} gutterBottom gutterTop>
       <Box>
         <Typography variant="h4">{props.title}</Typography>
-        <Typography variant="body1">
+        <Typography sx={{textAlign: 'justify'}} variant="body1">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, possimus
           blanditiis laboriosam officiis laboriosam nulla, veritatis quae
           corrupti adipisci illo nesciunt, laboriosam nulla, veritatis quae
