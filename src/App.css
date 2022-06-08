@@ -17,7 +17,13 @@ html {
 body {
   margin: 0;
   height: 100%;
+  /* background-color: #2C2323; */
   background-color: #F8D842;
+  background-image: url(./assets/images/Gradients.png);
+  background-blend-mode: hard-light;
+  background-repeat: no-repeat;
+  
+  /* background-size: ; */
 }
 
 .header-component {

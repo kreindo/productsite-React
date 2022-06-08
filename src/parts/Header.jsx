@@ -33,11 +33,11 @@ function Header() {
   // };
 
   return (
-    <AppBar color="transparent" position="static" className="elevation0">
+    <AppBar sx={{backgroundColor: '#F8D842'}} position="static" className="elevation0">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <CodeIcon
-            sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
+            sx={{ backgroundColor: '#000000', display: { xs: "none", md: "flex" }, mr: 1 }}
           />
           <Typography
             variant="h6"

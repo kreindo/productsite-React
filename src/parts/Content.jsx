@@ -7,13 +7,14 @@ import Box from "@mui/material/Box";
 import Divider from "../components/Divider";
 import dCube from "../assets/images/1.png";
 import devGirl from "../assets/images/Coding1.png";
-import devBoy from '../assets/images/fixing-bugs.png'
-import devGirl2 from '../assets/images/modular-coding-application.png'
+import devBoy from "../assets/images/fixing-bugs.png";
+import devGirl2 from "../assets/images/modular-coding-application.png";
+import bgImg from "../assets/images/Background.png";
 
 function Content() {
   return (
     <Container>
-      <Box sx={{display: 'absolute'}}>
+      <Box sx={{ display: "absolute" }}>
         <img
           className="slide-top1"
           style={{ width: "10em", display: "absolute" }}
@@ -22,8 +23,13 @@ function Content() {
         />
       </Box>
       <Container
+        styl
         maxWidth="md"
-        sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
       >
         <Typography
           className="slide-top skewed-left no-mouse"
