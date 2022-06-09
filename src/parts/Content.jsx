@@ -9,7 +9,7 @@ import dCube from "../assets/images/1.png";
 import devGirl from "../assets/images/Coding1.png";
 import devBoy from "../assets/images/fixing-bugs.png";
 import devGirl2 from "../assets/images/modular-coding-application.png";
-import bgImg from "../assets/images/Background.png";
+
 
 function Content() {
   return (

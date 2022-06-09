@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import MenuIcon from "@mui/icons-material/Menu";
-import CodeIcon from '@mui/icons-material/Code';
+import CodeIcon from "@mui/icons-material/Code";
 import Typography from "@mui/material/Typography";
 import Toolbar from "@mui/material/Toolbar";
 import Box from "@mui/material/Box";
@@ -13,6 +13,7 @@ import AppBar from "@mui/material/AppBar";
 // import Logo from "../assets/images/circli-noname.png";
 
 const pages = ["Docs", "Pricing", "Github"];
+const dropdown = ["Cli", "Builds", "Config"];
 
 function Header() {
   // State here
@@ -27,17 +28,25 @@ function Header() {
     setAnchorElNav(null);
   };
 
-
   // const renderList = () => {
   //   return menuLink.map((list) => <li href="#">{list}</li>);
   // };
 
   return (
-    <AppBar sx={{backgroundColor: '#F8D842'}} position="static" className="elevation0">
+    <AppBar
+      sx={{ backgroundColor: "#F8D842" }}
+      position="static"
+      className="elevation0"
+    >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <CodeIcon
-            sx={{ backgroundColor: '#000000', display: { xs: "none", md: "flex" }, mr: 1 }}
+            sx={{
+              backgroundColor: "#000001",
+              display: { xs: "none", md: "flex" },
+              mr: 1,
+              p: "1px",
+            }}
           />
           <Typography
             variant="h6"
@@ -57,7 +66,7 @@ function Header() {
             CCLI
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+          <Box sx={{ color: '#000001', flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -86,18 +95,17 @@ function Header() {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
+              {dropdown.map((dd) => (
+                <MenuItem key={dd} onClick={handleCloseNavMenu}>
                   <Typography color="black" textAlign="center">
-                    {page}
+                    {dd}
                   </Typography>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
-          <CodeIcon
-            sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
-          />
+          
+          <CodeIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
@@ -127,7 +135,44 @@ function Header() {
               </Button>
             ))}
           </Box>
-          
+          <Box sx={{ color: '#000001', display: { xs: "none", md: "flex" } }}>
+            <IconButton
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              onClick={handleOpenNavMenu}
+              color="inherit"
+            >
+              <MenuIcon />
+            </IconButton>
+            <Menu
+              id="menu-appbar"
+              anchorEl={anchorElNav}
+              anchorOrigin={{
+                vertical: "bottom",
+                horizontal: "left",
+              }}
+              keepMounted
+              transformOrigin={{
+                vertical: "top",
+                horizontal: "left",
+              }}
+              open={Boolean(anchorElNav)}
+              onClose={handleCloseNavMenu}
+              sx={{
+                display: { xs: "none", md: "block" },
+              }}
+            >
+              {dropdown.map((dd) => (
+                <MenuItem key={dd} onClick={handleCloseNavMenu}>
+                  <Typography color="black" textAlign="center">
+                    {dd}
+                  </Typography>
+                </MenuItem>
+              ))}
+            </Menu>
+          </Box>
         </Toolbar>
       </Container>
     </AppBar>
