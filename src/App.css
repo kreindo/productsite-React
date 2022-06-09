@@ -19,9 +19,9 @@ body {
   height: 100%;
   /* background-color: #2C2323; */
   background-color: #F8D842;
-  background-image: url(./assets/images/Gradients.png);
-  background-blend-mode: color;
-  background-repeat: repeat;
+  /* background-image: url(./assets/images/Gradients.png); */
+  /* background-blend-mode: color;
+  background-repeat: repeat; */
   
   /* background-size: ; */
 }
